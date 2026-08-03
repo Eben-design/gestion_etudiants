@@ -12,33 +12,61 @@
         <fieldset class="mon_formulaire">
             <legend>Informations personnelle</legend>
             <div class="champ">
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom">
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom</label></td>
+                        <td><input type="text" id="nom" name="nom"></td>
+                    </tr>
+                </table>
             </div>
             <div class="champ">
-                <label for="prenom">Prenom</label>
-                <input type="text" id="prenom" name="prenom">
+                <table>
+                    <tr>
+                        <td><label for="prenom">Prenom</label></td>
+                        <td><input type="text" id="prenom" name="prenom"></td>
+                    </tr>
+                </table>  
             </div>
             <div class="champ">
-                <label for="date_de_naissance">Date de naissance</label>
-                <input type="date" id="date_de_naissance" name="date_de_naissance">
+                <table>
+                    <tr>
+                        <td><label for="date_de_naissance">Date de naissance</label></td>
+                        <td><input type="date" id="date_de_naissance" name="date_de_naissance"></td>
+                    </tr>
+                </table>  
             </div>
             <div class="champ">
-                <label for="addr_mail">mail</label>
-                <input type="mail" id="addr_mail" name="addr_mail" required>
+                <table>
+                    <tr>
+                        <td><label for="addr_mail">mail</label></td>
+                        <td><input type="mail" id="addr_mail" name="addr_mail" required></td>
+                    </tr>
+                </table>
             </div>
         </fieldset>
         <fieldset class="mon_formulaire">
             <legend>Inscription</legend>
             <div class="champ">
-                <label for="filiere">Filière</label>
-                <input type="text" id="filiere" name="filiere">
+                <table>
+                    <tr>
+                        <td><label for="filiere">Filière</label></td>
+                        <td><input type="text" id="filiere" name="filiere"></td>
+                    </tr>
+                </table>
             </div>
             <div class="champ">
-                <label for="date_ins">Date d'inscription</label>
-                <input type="date" id="date_ins" name="date_ins">
+                <table>
+                    <tr>
+                        <td><label for="date_ins">Date d'inscription</label></td>
+                        <td><input type="date" id="date_ins" name="date_ins"></td>
+                    </tr>
+                </table>    
             </div>
         </fieldset>
+        <div class="btn">
+             <button class="envoyer">ENVOYER</button>
+             <button class="reini">REINITIALISER</button>
+        </div>
     </form>
     
 </body>
