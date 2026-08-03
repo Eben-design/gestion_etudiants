@@ -1,0 +1,17 @@
+.envoyer{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.reini{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
