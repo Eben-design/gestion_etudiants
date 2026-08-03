@@ -7,7 +7,39 @@
     <title>Gestion des étudiants</title>
 </head>
 <body>
-    
+    <form action="">
+        <h1>Voici le formulaire d'ajout des étudiants</h1>
+        <fieldset class="mon_formulaire">
+            <legend>Informations personnelle</legend>
+            <div class="champ">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="champ">
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div class="champ">
+                <label for="date_de_naissance">Date de naissance</label>
+                <input type="date" id="date_de_naissance" name="date_de_naissance">
+            </div>
+            <div class="champ">
+                <label for="addr_mail">mail</label>
+                <input type="mail" id="addr_mail" name="addr_mail" required>
+            </div>
+        </fieldset>
+        <fieldset class="mon_formulaire">
+            <legend>Inscription</legend>
+            <div class="champ">
+                <label for="filiere">Filière</label>
+                <input type="text" id="filiere" name="filiere">
+            </div>
+            <div class="champ">
+                <label for="date_ins">Date d'inscription</label>
+                <input type="date" id="date_ins" name="date_ins">
+            </div>
+        </fieldset>
+    </form>
     
 </body>
 </html>
