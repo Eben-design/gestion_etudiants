@@ -17,3 +17,23 @@ td{
     width: 100px;
     height: 30px;
 }
+.envoyer{
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.reini{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: rgb(211, 149, 57);
+}
